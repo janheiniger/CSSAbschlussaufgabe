@@ -10,6 +10,9 @@
     background-color: #1F2937;
     height: 400px;
 }
+body {
+    margin: 0;
+}
 
 .darrylButtonImageHeader {
     flex: 1;
@@ -31,14 +34,17 @@
 }
 .signUpButton {
     background-color: #3882F6;
+    align-items: center;
     color: white;
-    width: 100px;
+    width: 125px;
     height: 35px;
 }
 
 .Headerlogo {
     color: white;
     padding-top: 20px;
+    height: 100px;
+    width: auto;
 }
 .title {
     color: white;
@@ -48,6 +54,10 @@ p {
     color: grey;
     font-size: 16px;
     text-align: left;
+}
+a {
+    color: white;
+    text-decoration: none;
 }
 .headerLinksoneToThree {
 
@@ -111,10 +121,38 @@ h1 {
 .fourthpart {
     height: 250px;
     background-color: white;
+    padding: 16px 250px;
+    align-content: center;
+    justify-content: center;
+
 }
 .flexcontainer {
-
-
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-self: center;
+    border-radius: 15px;
+    padding: 50px 100px;
+    background-color: #3882F6;
+}
+.firstGroup {
+    justify-content: space-between;
+    color: white;
+}
+.headerfourth {
+    justify-content: space-between;
+    font-weight: 900;
+    font-size: 24px;
+}
+button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 img {
     width: 100px;
