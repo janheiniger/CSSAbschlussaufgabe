@@ -1,0 +1,138 @@
+.header {
+    display: flex;
+    padding: 0 16px;
+    background-color: #1F2937;
+    justify-content: space-between;
+}
+.firstpart {
+
+    display: flex;
+    background-color: #1F2937;
+    height: 400px;
+}
+
+.darrylButtonImageHeader {
+    flex: 1;
+    margin-left: 60px;
+    align-content: center;
+}
+.imageFlexer {
+    display: flex;
+    flex: 1;
+    align-content: center;
+    background-color: grey;
+}
+.darrylImage {
+
+    margin-top: 120px;
+    margin-left: 50px;
+    width: 40%;
+    height: auto;
+}
+.signUpButton {
+    background-color: #3882F6;
+    color: white;
+    width: 100px;
+    height: 35px;
+}
+
+.Headerlogo {
+    color: white;
+    padding-top: 20px;
+}
+.title {
+    color: white;
+    font-size: 48px;
+}
+p {
+    color: grey;
+    font-size: 16px;
+    text-align: left;
+}
+.headerLinksoneToThree {
+
+    color: dimgray;
+    text-align: right;
+    justify-content: space-between;
+    padding-top: 20px;
+    gap: 8px;
+}
+
+
+.middlepart {
+    background-color: white;
+    height: 250px;
+}
+
+.text {
+    text-align: center;
+    justify-content: center;
+}
+
+.info {
+    max-width: 200px;
+}
+h1 {
+
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+}
+.flex-container{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    margin-top: 32px;
+    justify-content: center;
+}
+
+
+.Thirdpart {
+    height: 250px;
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+    align-content: center;
+    background-color: #E5E7EB;
+    justify-content: center;
+
+}
+
+.Quote {
+    font-size: 36px;
+    justify-content: center;
+}
+.autor {
+    font-size: 16px;
+}
+.fourthpart {
+    height: 250px;
+    background-color: white;
+}
+.flexcontainer {
+
+
+}
+img {
+    width: 100px;
+}
+
+h1 {
+    justify-content: center;
+}
+
+
+.footer {
+    height: 50px;
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+
+}
+.textfooter {
+    align-content: center;
+}
